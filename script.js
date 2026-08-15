@@ -1,3 +1,14 @@
+// Google Analytics 4 — G-HJRW62TFZD
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HJRW62TFZD');
+
+const gaScript = document.createElement('script');
+gaScript.async = true;
+gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-HJRW62TFZD';
+document.head.appendChild(gaScript);
+
 const observer = new IntersectionObserver(
   entries => entries.forEach(entry => {
     if (entry.isIntersecting) entry.target.classList.add('visible');
